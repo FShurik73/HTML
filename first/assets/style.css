@@ -1,0 +1,19 @@
+h1{
+
+    color: yellow;
+}
+.title{
+    color: aqua;
+    font-size: 50px;
+}
+.text{
+    background-color: gold;
+}
+.img_log{
+    width: 500px;
+    height: 300px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
