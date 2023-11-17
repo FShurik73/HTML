@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Gilroy-Semibold";
+    src: url("../fonts/gilroy-semibold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/gilroy-bold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/gilroy-medium.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url("../fonts/gilroy-regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 1170px / 2);
+    padding-right: calc(50% - 1170px / 2);
+}
+
+.header {
+    margin-top: 40px;
+    margin-bottom: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    width: 533px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__links {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav__links:first-child {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content {
+    display: flex;
+    gap: 39px;
+    margin-bottom: 162px;
+}
+
+.content__left {
+    width: 45%;
+}
+
+.title {
+    margin-bottom: 17px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text {
+    margin-right: 56px;
+    margin-bottom: 37px;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.buttons {
+    display: flex;
+    gap: 36px;
+}
+
+.button {
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link {
+    padding: 1rem 2rem;
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logotip {
+    padding-top: 97px;
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+}
