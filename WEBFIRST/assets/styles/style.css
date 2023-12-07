@@ -227,3 +227,32 @@ ul {
     line-height: 125%;
     opacity: 0.7;
 }
+
+@media screen and (max-width: 1439px){
+    .base-container {
+        /* margin: 0 40px; */
+        max-width: 100%;
+        margin-left: 40px;
+        margin-right: 40px;
+        /* max-width: 767px; */
+    }
+    .intro, .base-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .intro-upper-title {
+        font-size: 16px;
+    }
+    .intro-title {
+        font-size: 48px;
+    }
+    .logos {
+        flex-wrap: wrap;
+        gap: 32px;
+        justify-content: flex-start;
+        max-width: 540px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
