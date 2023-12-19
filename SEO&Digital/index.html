@@ -18,8 +18,8 @@
 
       <div class="header-right">
         <img src="./assets/images/Forma2.svg" alt="Меню" />
-        <img src="./assets/images/Forma3.svg" alt="ЛК" />
-        <img src="./assets/images/Forma4.svg" alt="Корзина" />
+        <img class="mobile" src="./assets/images/Forma3.svg" alt="ЛК" />
+        <img class="mobile" src="./assets/images/Forma4.svg" alt="Корзина" />
       </div>
     </header>
     <section class="back2">
@@ -27,11 +27,12 @@
         <div>
           <picture>
             <source media="(min-width: 768px) and (max-width: 1439px)" srcset="./assets/images/Reklama-mobile.svg" width="100%">
-            <img src="./assets/images/Reklama.svg" alt="Мужчина в куртке" />
+            <img class="mobile" src="./assets/images/Reklama.svg" alt="Мужчина в куртке" />
           </picture>
         </div>
         <div class="fashion-title">
-          <img src="./assets/images/Rectangle16.svg" alt="" />
+          <source media="(min-width: 320px) and (max-width: 767px)" srcset="./assets/images/Rectangle16-mobile.png">
+          <img src="./assets/images/Rectangle16.svg" alt="0" />
           <div>
             <h1 class="fashion-h1">THE BRAND</h1>
             <h2 class="fashion-h2">
@@ -42,10 +43,11 @@
       </div>
     </section>
     <section class="sales center">
-      <div class="item-sales">
+      <div class="item-sales" style="overflow:hidden ;">
         <picture>
+          <source media="(min-width: 320px) and (max-width: 767px)" srcset="./assets/images/ForWomen-mobile2.svg" width="100%">
           <source media="(min-width: 768px) and (max-width: 1439px)" srcset="./assets/images/ForWomen-mobile.svg" width="100%">
-          <img src="./assets/images/ForWomen.svg" alt="Для женщин" />
+          <img src="./assets/images/ForWomen.svg" alt="Для женщин"/>
         </picture>
         <div class="item-sales__bg"></div>
         <div class="sales-centered">
@@ -53,8 +55,9 @@
           <h2 class="sales-h2">FOR WOMEN</h2>
         </div>
       </div>
-      <div class="item-sales">
+      <div class="item-sales" style="overflow: hidden;">
         <picture>
+          <source media="(min-width: 320px) and (max-width: 767px)" srcset="./assets/images/ForMen-mobile2.svg" width="100%">
           <source media="(min-width: 768px) and (max-width: 1439px)" srcset="./assets/images/ForMen-mobile.png" width="100%">
           <img src="./assets/images/ForMen.svg" alt="Для мужчин" />
         </picture>
@@ -64,8 +67,9 @@
           <h2 class="sales-h2">FOR MEN</h2>
         </div>
       </div>
-      <div class="item-sales">
+      <div class="item-sales" style="overflow: hidden;">
         <picture>
+          <source media="(min-width: 320px) and (max-width: 767px)" srcset="./assets/images/ForKids-mobile2.svg" width="100%">
           <source media="(min-width: 768px) and (max-width: 1439px)" srcset="./assets/images/ForKids-mobile.png" width="100%">
           <img src="./assets/images/ForKids.svg" alt="Для детей" />
         </picture>
@@ -77,6 +81,7 @@
       </div>
       <div class="item-sales__big">
         <picture>
+          <source media="(min-width: 320px)"and (max-width: 767px) srcset="./assets/images/Accesories-mobile2.svg" width="100%">
           <source media="(min-width: 768px) and (max-width: 1439px)" srcset="./assets/images/Accesories-mobile.png" width="100%">
           <img src="./assets/images/Accesories.svg" alt="Аксесуары" />
         </picture>
@@ -87,7 +92,7 @@
         </div>
       </div>
     </section>
-    <div class="product center">
+    <div class="product center2">
       <p class="product-title">Fetured Items</p>
       <p class="product-text">
         Shop for items based on what we featured in this week
